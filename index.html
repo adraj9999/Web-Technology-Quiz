@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<style>
+  /* CSS styles for container */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #55e7cc; /* Changed background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+
+  .container:hover {
+    background-color: #ccc; /* Change background color on hover */
+  }
+
+  /* CSS styles for individual boxes */
+  .quiz {
+    background-color: #55e7cc;
+    color: #40a428;
+  }
+
+  .articleee {
+    background-color: #55e7cc;
+    color: #40a428;
+  }
+
+  .aboutt {
+    background-color: #55e7cc;
+    color: #40a428;
+  }
+
+  /* Hide link text */
+  .container a {
+    color: transparent;
+  }
+
+  /* Show link text on hover */
+  .container:hover a {
+    color: #000;
+  }
+</style>
+</head>
+<body>
+
+<!-- Footer -->
+<div class="footer">
+  <h1>Welcome to My Page</h1>
+</div>
+
+<!-- Container for Web Technology Quiz -->
+<div class="container quiz" onclick="window.location.href='quiz.html';">
+  <h2>Web Technology Quiz</h2>
+  <a href="quiz.html">Take Quiz</a>
+</div>
+
+<!-- Container for Article -->
+<div class="container articleee" onclick="window.location.href='article.html';">
+  <h2>Article</h2>
+  <a href="article.html">Read Article</a>
+</div>
+
+<!-- Container for About -->
+<div class="container aboutt" onclick="window.location.href='about.html';">
+  <h2>About</h2>
+  <a href="about.html">About Me</a>
+</div>
+
+</body>
+</html>
