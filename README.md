@@ -1,2 +1,1 @@
-# Web-Technology-Quiz
-Quiz on Web Technology
+It is my web tech project
